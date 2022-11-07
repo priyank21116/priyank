@@ -64,7 +64,7 @@ const About = () => {
         
 
          <div className='  h-full justify-center items-center font-thin mx-auto px-20 text-lg'>
-            <p className='font-thin font-extralight'>
+            <p className='font-thin'>
                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque quisquam ipsam, reprehenderit quod illo eaque a at ut laborum! Optio saepe accusamus similique sequi quam asperiores vero dolore nihil nam.
                Natus non earum, nam facere beatae cupiditate eaque est consequatur eius nemo, in, possimus ducimus? Porro, !
             </p>

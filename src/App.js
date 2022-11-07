@@ -1,8 +1,8 @@
 import './App.css';
 import React from 'react'
-import {BrowserRouter as Router, Route,Routes} from 'react-router-dom';
+// import {BrowserRouter as Router, Route,Routes} from 'react-router-dom';
 
-import Header from './Components/Header/Header';
+// import Header from './Components/Header/Header';
 import Home from './Components/Home/Home';
 import Sociallinks from './Components/Sociallinks';
 import About from './Components/About/About';
@@ -10,7 +10,7 @@ import Projects from './Components/Projects/Projects';
 import Skillbox from './Components/Skillbox/Skillbox';
 import Footer from './Components/Footer/Footer';
 
-import siteicon from './Image/siteicon.jpg'
+// import siteicon from './Image/siteicon.jpg'
 
 function App() {
   return (
