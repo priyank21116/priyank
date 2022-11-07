@@ -11,21 +11,21 @@ import { DiNodejs } from "react-icons/di";
 const Skillbox = () => {
 
 
-  const skills=[
-    {id:1 ,imgg: SiPython, name: "Python", style: 'shadow-blue-500'},
-    {id: 2,imgg: SiJavascript, name:"JavaScript", style: 'shadow-orange-500'},
-    {id: 3,imgg: FaReact, name:"React" , style: 'shadow-sky-400'},
-    {id: 4,imgg: DiNodejs , name: "Nodejs", style: 'shadow-yellow-500'},
-    {id: 5,imgg:TiHtml5 , name: "Html", style: 'shadow-blue-700'},
-    {id: 6,imgg: SiCsswizardry, name:"CSS" , style: 'shadow-white'},
-    {id: 7,imgg: SiExpress, name: "Express", style: 'shadow-pink-500'},
-    {id: 8,imgg: SiMongodb, name: "Mongodb", style: 'shadow-blue-500'},
-    {id: 9,imgg: TbBrandReactNative, name: "ReactNative", style: 'shadow-red-400'},
-    {id: 10,imgg: AiOutlineConsoleSql, name: "SQL", style: 'shadow-gray-300'},
-    {id: 11,imgg: SiRedux, name: "Redux", style: 'shadow-gray-300'},
-    {id: 12,imgg: SiTailwindcss, name: "Tailwindcss", style: 'shadow-gray-300'}
+//   const skills=[
+//     {id:1 ,imgg: SiPython, name: "Python", style: 'shadow-blue-500'},
+//     {id: 2,imgg: SiJavascript, name:"JavaScript", style: 'shadow-orange-500'},
+//     {id: 3,imgg: FaReact, name:"React" , style: 'shadow-sky-400'},
+//     {id: 4,imgg: DiNodejs , name: "Nodejs", style: 'shadow-yellow-500'},
+//     {id: 5,imgg:TiHtml5 , name: "Html", style: 'shadow-blue-700'},
+//     {id: 6,imgg: SiCsswizardry, name:"CSS" , style: 'shadow-white'},
+//     {id: 7,imgg: SiExpress, name: "Express", style: 'shadow-pink-500'},
+//     {id: 8,imgg: SiMongodb, name: "Mongodb", style: 'shadow-blue-500'},
+//     {id: 9,imgg: TbBrandReactNative, name: "ReactNative", style: 'shadow-red-400'},
+//     {id: 10,imgg: AiOutlineConsoleSql, name: "SQL", style: 'shadow-gray-300'},
+//     {id: 11,imgg: SiRedux, name: "Redux", style: 'shadow-gray-300'},
+//     {id: 12,imgg: SiTailwindcss, name: "Tailwindcss", style: 'shadow-gray-300'}
   
-]
+// ]
   return (
     <div name="experience" className='bg-gradient-to-b from-black to-gray-800 pt-32  border-4 border-blue-500 rounded-t-[200px] rounded-b-[100px] w-full h-full border-b-0 pb-16'>
 

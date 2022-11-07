@@ -120,11 +120,11 @@ const Projects = () => {
       </div>
 
           <div className='flex flex-center justify-center  w-full  '>
-                {item.buttons.demo && <a target="_blank"  href={item.buttons.demo} > <button  className=' bg-gray-800 border rounded border-gray-600 px-8 py-3 my-4 duration-200 hover:scale-105'>Demo</button> </a>}
-                {item.buttons.Website && <a target="_blank"  href={item.buttons.Website}> <button  className=' bg-gray-800 border rounded border-gray-600 px-6  p-3 py-3 my-4 duration-200 hover:scale-105'>Website</button> </a>}
-                {item.buttons.Fcode && <a target="_blank"  href={item.buttons.Fcode}><button className=' bg-gray-800 border rounded border-gray-600 p-3 py-3 my-4 duration-200 hover:scale-105'>FrontendCode</button> </a>}
-                 {item.buttons.Bcode && <a target="_blank"  href={item.buttons.Bcode}> <button className=' bg-gray-800 border rounded border-gray-600 p-3 py-3 my-4 duration-200 hover:scale-105'>BackendCode</button> </a>}
-                 {item.buttons.code && <a target="_blank"  href={item.buttons.code}><button className=' bg-gray-800 border rounded border-gray-600 p-3 py-3 my-4 duration-200 hover:scale-105'>Project Source</button> </a>}
+                {item.buttons.demo && <a target="_blank" rel="noreferrer"  href={item.buttons.demo} > <button  className=' bg-gray-800 border rounded border-gray-600 px-8 py-3 my-4 duration-200 hover:scale-105'>Demo</button> </a>}
+                {item.buttons.Website && <a target="_blank" rel="noreferrer"  href={item.buttons.Website}> <button  className=' bg-gray-800 border rounded border-gray-600 px-6  p-3 py-3 my-4 duration-200 hover:scale-105'>Website</button> </a>}
+                {item.buttons.Fcode && <a target="_blank" rel="noreferrer"  href={item.buttons.Fcode}><button className=' bg-gray-800 border rounded border-gray-600 p-3 py-3 my-4 duration-200 hover:scale-105'>FrontendCode</button> </a>}
+                 {item.buttons.Bcode && <a target="_blank" rel="noreferrer"  href={item.buttons.Bcode}> <button className=' bg-gray-800 border rounded border-gray-600 p-3 py-3 my-4 duration-200 hover:scale-105'>BackendCode</button> </a>}
+                 {item.buttons.code && <a target="_blank" rel="noreferrer"  href={item.buttons.code}><button className=' bg-gray-800 border rounded border-gray-600 p-3 py-3 my-4 duration-200 hover:scale-105'>Project Source</button> </a>}
                  
 
           </div>
@@ -158,11 +158,11 @@ const Projects = () => {
 </div>
 
   <div className='flex flex-center justify-center  w-full align-bottom  '>
-        {item.buttons.demo && <a target="_blank"  href={item.buttons.demo} > <button  className=' bg-gray-800 border rounded border-gray-600 px-8 py-3 my-4 duration-200 hover:scale-105'>Demo</button> </a>}
-        {item.buttons.Website && <a target="_blank"  href={item.buttons.Website}> <button  className=' bg-gray-800 border rounded border-gray-600 px-6  p-3 py-3 my-4 duration-200 hover:scale-105'>Website</button> </a>}
-        {item.buttons.Fcode && <a target="_blank"  href={item.buttons.Fcode}><button className=' bg-gray-800 border rounded border-gray-600 p-3 py-3 my-4 duration-200 hover:scale-105'>FrontendCode</button> </a>}
-         {item.buttons.Bcode && <a target="_blank"  href={item.buttons.Bcode}> <button className=' bg-gray-800 border rounded border-gray-600 p-3 py-3 my-4 duration-200 hover:scale-105'>BackendCode</button> </a>}
-         {item.buttons.code && <a target="_blank"  href={item.buttons.code}><button className=' bg-gray-800 border rounded border-gray-600 p-3 py-3 my-4 duration-200 hover:scale-105'>Project Source</button> </a>}
+        {item.buttons.demo && <a target="_blank" rel="noreferrer"  href={item.buttons.demo} > <button  className=' bg-gray-800 border rounded border-gray-600 px-8 py-3 my-4 duration-200 hover:scale-105'>Demo</button> </a>}
+        {item.buttons.Website && <a target="_blank" rel="noreferrer"  href={item.buttons.Website}> <button  className=' bg-gray-800 border rounded border-gray-600 px-6  p-3 py-3 my-4 duration-200 hover:scale-105'>Website</button> </a>}
+        {item.buttons.Fcode && <a target="_blank" rel="noreferrer"  href={item.buttons.Fcode}><button className=' bg-gray-800 border rounded border-gray-600 p-3 py-3 my-4 duration-200 hover:scale-105'>FrontendCode</button> </a>}
+         {item.buttons.Bcode && <a target="_blank" rel="noreferrer"  href={item.buttons.Bcode}> <button className=' bg-gray-800 border rounded border-gray-600 p-3 py-3 my-4 duration-200 hover:scale-105'>BackendCode</button> </a>}
+         {item.buttons.code && <a target="_blank" rel="noreferrer"  href={item.buttons.code}><button className=' bg-gray-800 border rounded border-gray-600 p-3 py-3 my-4 duration-200 hover:scale-105'>Project Source</button> </a>}
          
 
   </div>

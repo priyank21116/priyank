@@ -5,7 +5,7 @@ import moonImage from "../../Image/moon.jpg";
 import venusImage from "../../Image/venus.jpg";
 import spaceImage from "../../Image/space.jpg";
 
-import siteicon from '../../Image/siteicon.jpg'
+// import siteicon from '../../Image/siteicon.jpg'
 
 import Typed from 'typed.js';
 

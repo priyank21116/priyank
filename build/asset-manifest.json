@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/static/css/main.0ae0b0cc.css",
+    "main.js": "/static/js/main.7ab52ce0.js",
+    "static/media/workfigg.gif": "/static/media/workfigg.bd472c049cd87460a054.gif",
+    "static/media/moon.jpg": "/static/media/moon.ec9d16757c33a83a4e2f.jpg",
+    "static/media/venus.jpg": "/static/media/venus.c093898c8e79f21d8154.jpg",
+    "static/media/glodeview.gif": "/static/media/glodeview.bd38d5637dbbbccebd20.gif",
+    "static/media/tradeinss.gif": "/static/media/tradeinss.7a3b5665dd44e1ddb571.gif",
+    "static/media/six.jpg": "/static/media/six.47ad0243d78485375dca.jpg",
+    "static/media/three.jpg": "/static/media/three.b92931acbeb413a952fa.jpg",
+    "static/media/one.jpg": "/static/media/one.b17195224f4e72bef91a.jpg",
+    "static/media/two.jpeg": "/static/media/two.4cd6da3a33a6f060aed4.jpeg",
+    "static/media/five.jpg": "/static/media/five.91ebb6ceb88209a57ab8.jpg",
+    "static/media/four.jpg": "/static/media/four.4bafc50104717f1c600d.jpg",
+    "static/media/uberr.png": "/static/media/uberr.15986163c802cf2f966a.png",
+    "static/media/pickflipp.png": "/static/media/pickflipp.bb0251949db8f18a3731.png",
+    "static/media/getVaccine.png": "/static/media/getVaccine.a05b7f06baeb34487431.png",
+    "static/media/interview.png": "/static/media/interview.cba7c1e654e3bebb8961.png",
+    "static/media/space.jpg": "/static/media/space.167f7b1f3402562b8e43.jpg",
+    "static/media/siteicon.jpg": "/static/media/siteicon.c6b62b887819469d544d.jpg",
+    "static/media/trackcovid.png": "/static/media/trackcovid.a1398a4cb92ca149b085.png",
+    "index.html": "/index.html",
+    "main.0ae0b0cc.css.map": "/static/css/main.0ae0b0cc.css.map",
+    "main.7ab52ce0.js.map": "/static/js/main.7ab52ce0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0ae0b0cc.css",
+    "static/js/main.7ab52ce0.js"
+  ]
+}
