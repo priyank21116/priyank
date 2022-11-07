@@ -1,0 +1,10 @@
+.container{
+   width:100%;
+   color: aliceblue;
+   align-items: center;
+}
+
+.h2{
+   font-size: 60px;
+   font-weight: 400;
+}

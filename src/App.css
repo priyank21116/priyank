@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* IMport font-ROBOTO -ubuntu */
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;1,100;1,400&family=Ubuntu+Mono:ital,wght@0,700;1,400;1,700&display=swap'); */
+/* fontfamily
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Dancing+Script:wght@700&family=Poppins:wght@500&display=swap');
+font-family: 'Roboto', sans-serif;
+font-family: 'Ubuntu Mono', monospace; */
+
+/* @layer base{
+  html{
+    font-family: 'Roboto', sans-serif;
+  }
+} */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Dancing+Script:wght@700&family=Poppins:wght@500&display=swap');
+
+*{
+  padding: 0%;
+  margin: 0%;
+  text-decoration: aliceblue;
+  
+}
+.navbartext{
+  font-family: 'Dancing Script', cursive;
+}
+h1,h2,h3,p,span,h4,h5,h6 {
+  font-family: 'Acme','Poppins', sans-serif;
+}
+
+.dance{
+  font-family: 'Dancing Script', cursive;
+}
+
+.pop{
+  font-family: 'Poppins', sans-serif;
+}
+
+.point{
+  font-family: 'Acme','Poppins', sans-serif;
+}
