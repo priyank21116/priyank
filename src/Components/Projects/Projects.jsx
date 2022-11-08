@@ -26,7 +26,7 @@ const Projects = () => {
   {
     id: 2,
     src: interview,
-    title: 'Interview Scheduling Portal',
+    title: 'Interview Portal',
     description:"an application that helps admins to schedule,update and delete meetings and interview, enabling various checks and verification.",
     buttons:{
        Website:'https://interviewportalprk.netlify.app/' ,
@@ -85,7 +85,7 @@ const Projects = () => {
     id: 8,
     src: trackcovid,
     title: 'Track-covid',
-    description:"It is a dashboard showing covide numbers for your state .A simple react web app uses cowin covid api.",
+    description:"A react dashboard web app, to get live count of Vacinated population , Active cases , deceased and recovered patient count.",
     buttons:{
       code: 'https://github.com/priyank21116/track-covid',
     }
@@ -93,7 +93,7 @@ const Projects = () => {
   }
 ]
   return (
-    <div name="projects" className='bg-gradient-to-b from-gray-900 to-black  w-full text-white h-full py-16 border-t-2 border-orange-400 shadow-inner  rounded-t-[100px]'>
+    <div name="projects" className='bg-gradient-to-b from-gray-900 to-black  w-full text-white h-full py-16 border-t-4  border-orange-400 shadow-inner  rounded-t-[100px]'>
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full ">
         <div className="pb-8 mx-auto -mt-2">
           <p className='text-5xl font-bold inline border-b-4  mx-auto border-gray-500 mb-12'>Projects</p>

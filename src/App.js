@@ -16,17 +16,18 @@ function App() {
   return (
     <div>
     {/* <Header />   */}
-    <div className='bg-black'>
+    <div className='bg-black pb-4'>
       <Home />
       {/* <img className='absolute right-8 bottom-11 w-12 h-12' src={siteicon} alt=" " ></img> */}
     </div>
+    {/* <div className='py-8 bg-black -z-10'></div> */}
   
   <About />
 
   <div className='bg-gray-800 px-4'>
   <Skillbox />
   </div>
-  <div className='bg-gray-800 px-4'>
+  <div className='bg-gray-800 px-4 w-full'>
   <Projects />
   </div>
   <Footer />

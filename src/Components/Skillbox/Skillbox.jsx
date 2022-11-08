@@ -27,7 +27,7 @@ const Skillbox = () => {
   
 // ]
   return (
-    <div name="experience" className='bg-gradient-to-b from-black to-gray-800 pt-32  border-4 border-blue-500 rounded-t-[200px] rounded-b-[100px] w-full h-full border-b-0 pb-16'>
+    <div name="experience" className='bg-gradient-to-b from-black to-gray-800 pt-32  border-4 border-blue-500 rounded-t-[200px] rounded-b-[100px] w-full h-full border-b-0 pb-20 px-4'>
 
 
 <div className='w-4/12 border-2 border-gray-500 bg-gradient-to-b from-gray-800 to-black rounded-xl justify-center  h-full py-10 mx-auto pl-32 mb-20  '>
@@ -35,7 +35,7 @@ const Skillbox = () => {
 <div className=' w-full mx-auto my-4 pb-4 border-b-42  inline border-gray-400 relative -top-4 -left-16 nd:top-1 md:left-1 text-center'>
  <p className=' text-4xl md:text-5xl font-bold text-white inline mx-auto -ml-8 md:ml-16'>Skills</p>
 
-<p className=' dance w-full text-4xl text-blue-500 -ml-12 md:-ml-16 pt-8'> ....learner</p>
+<p className=' dance w-full text-4xl text-blue-500 -ml-16 md:-ml-16 pt-8'> ....learner</p>
   </div>
 
 

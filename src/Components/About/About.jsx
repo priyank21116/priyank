@@ -14,18 +14,18 @@ import six from  '../../Image/one/six.jpg'
 const About = () => {
 
   return (
-    <div className='w-full h-full bg-gradient-to-b from-black to-gray-800 text-white  py-20 -z-10  shadow-sky-700 shadow-inner'>
-      <div className=' mb-32 text-center'>
-          <div className=' text-5xl text-white  font-bold  mx-auto w-2/6  md:px-10 text-center items-center justify-center overflow-hidden point'><p className='border-b-4 border-gray inline mx-auto text-center items-center justify-center pb-2'>About</p></div>
+    <div className='w-full h-full bg-gradient-to-b from-black to-gray-800 text-white  py-20  -z-50  shadow-sky- shadow-inner text-center'>
+      <div className=' mb-40 text-center'>
+          <div className=' text-5xl text-white  font-bold  mx-auto w-2/6  md:px-10 text-center items-center justify-center overflow-hidden point inline border-b-4 border-gray-400 p-2'><p className='border-b-0 border-gray inline mx-auto text-center items-center justify-center pb-2'>About</p></div>
       </div>
     
-      <div className='max-w-screen-lg md:p-4 mx-auto justify-between w-full h-full mt-30   gap-5 mt-5  md:flex'>
+      <div className='max-w-screen-lg md:p-4 mx-auto justify-between w-full h-full  gap-5 mt-5  md:flex md:border-[20px]  md:border-gray-900 rounded-xl '>
          
          {/* <div className='w-full h-full border'></div>
          <div className='w-full h-[120px] border'></div>
          <div className='w-full h-[120px] border'></div> */}
 
-        <div className='  md:w-1/3 h-full mx-auto'>
+        <div className='  md:w-1/3 h-full mx-auto mt-20  md:ml-20 md:pt-12'>
          <div className="homeCubeSkills mb-40 mx-auto">
           <div className="homeCubeSkillsFaces homeCubeSkillsFace1">
             <img src={one} alt="Face1" />
@@ -56,17 +56,25 @@ const About = () => {
 
 
               </div>
-              {/* <div className="cubeShadow mt-20 hidden md:visible"></div> */}
+              <div className="cubeShadow mt-20 hidden md:visible"></div>
 
 
          </div>
 
         
 
-         <div className='  h-full justify-center items-center font-thin mx-auto px-20 text-lg'>
-            <p className='font-thin'>
-               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque quisquam ipsam, reprehenderit quod illo eaque a at ut laborum! Optio saepe accusamus similique sequi quam asperiores vero dolore nihil nam.
-               Natus non earum, nam facere beatae cupiditate eaque est consequatur eius nemo, in, possimus ducimus? Porro, !
+         <div className=' w-4/6 md:-mt-28 md:-mr-28 md:w-4/6 h-full justify-center items-center mx-auto px-16 text-lg  font-thin bg-gray-900  border-0 rounded-2xl md:ml-20 '>
+            <p className='font-thin text-center pop py-20 '>
+            An innovator, creator, developer and a Startup Enthusiast.
+            <div className='py-4'></div>
+Experienced in building highly functional websites, applications and software using modern web frameworks.
+<div className='py-2'></div>
+
+A passionate professional who loves to work on real-world problems and crafting class solutions. I consider myself good at understanding needs 
+of Business and Product. And hence driven to build product which impact masses and get served as value.  
+<div className='py-2'></div>
+
+I'm Inn for new opportunities and associations,anytime.
             </p>
             </div>
          </div>

@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.0ae0b0cc.css",
-    "main.js": "/static/js/main.7ab52ce0.js",
+    "main.js": "/static/js/main.0d7d1b32.js",
     "static/media/workfigg.gif": "/static/media/workfigg.bd472c049cd87460a054.gif",
     "static/media/moon.jpg": "/static/media/moon.ec9d16757c33a83a4e2f.jpg",
     "static/media/venus.jpg": "/static/media/venus.c093898c8e79f21d8154.jpg",
@@ -18,14 +18,13 @@
     "static/media/getVaccine.png": "/static/media/getVaccine.a05b7f06baeb34487431.png",
     "static/media/interview.png": "/static/media/interview.cba7c1e654e3bebb8961.png",
     "static/media/space.jpg": "/static/media/space.167f7b1f3402562b8e43.jpg",
-    "static/media/siteicon.jpg": "/static/media/siteicon.c6b62b887819469d544d.jpg",
     "static/media/trackcovid.png": "/static/media/trackcovid.a1398a4cb92ca149b085.png",
     "index.html": "/index.html",
     "main.0ae0b0cc.css.map": "/static/css/main.0ae0b0cc.css.map",
-    "main.7ab52ce0.js.map": "/static/js/main.7ab52ce0.js.map"
+    "main.0d7d1b32.js.map": "/static/js/main.0d7d1b32.js.map"
   },
   "entrypoints": [
     "static/css/main.0ae0b0cc.css",
-    "static/js/main.7ab52ce0.js"
+    "static/js/main.0d7d1b32.js"
   ]
 }
