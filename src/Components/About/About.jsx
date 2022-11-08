@@ -67,11 +67,11 @@ const About = () => {
             <p className='font-thin text-center pop py-20 '>
             An innovator, creator, developer and a Startup Enthusiast.
             <div className='py-4'></div>
-Experienced in building highly functional websites, applications and software using modern web frameworks.
+            I am experienced in building highly functional websites, applications and software using modern web frameworks.
 <div className='py-2'></div>
 
-A passionate professional who loves to work on real-world problems and crafting class solutions. I consider myself good at understanding needs 
-of Business and Product. And hence driven to build product which impact masses and get served as value.  
+A passionate professional who loves to work on real-world problems and craft class solutions. I consider myself good at understanding the needs 
+of Businesses and Product. And hence driven to build products which impact masses and get served as value.  
 <div className='py-2'></div>
 
 I'm Inn for new opportunities and associations,anytime.
