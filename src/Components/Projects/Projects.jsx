@@ -22,21 +22,7 @@ const Projects = () => {
       Bcode: 'https://github.com/priyank21116/WorkfigBS',
     }
    
-  },
-  {
-    id: 2,
-    src: interview,
-    title: 'Interview Portal',
-    description:"an application that helps admins to schedule,update and delete meetings and interview, enabling various checks and verification.",
-    buttons:{
-       Website:'https://interviewportalprk.netlify.app/' ,
-       Fcode: 'https://github.com/priyank21116/Interview-Creation-Portal',
-      Bcode: 'https://github.com/priyank21116/Interview-CreationPortal-Backend',
-    }
-   
-  }]
-  
-  const projecttwo=[{
+  },{
     id: 3,
     src: pickflipp,
     title: 'Go-cart',
@@ -45,7 +31,10 @@ const Projects = () => {
       code: 'https://github.com/priyank21116/Pickflip',
     }
    
-  },{
+  },
+  ]
+  
+  const projecttwo=[{
     id: 6,
     src: uberr,
     title: 'UberClone',
@@ -61,6 +50,17 @@ const Projects = () => {
     description:"A Travel advisor web app.Provide information of near by restaurant,hotels and display them using google map api.",
     buttons:{
       code: 'https://github.com/priyank21116/globeview',
+    }
+   
+  },{
+    id: 2,
+    src: interview,
+    title: 'Interview Portal',
+    description:"an application that helps admins to schedule,update and delete meetings and interview, enabling various checks and verification.",
+    buttons:{
+       Website:'https://interviewportalprk.netlify.app/' ,
+       Fcode: 'https://github.com/priyank21116/Interview-Creation-Portal',
+      Bcode: 'https://github.com/priyank21116/Interview-CreationPortal-Backend',
     }
    
   },{
@@ -93,7 +93,7 @@ const Projects = () => {
   }
 ]
   return (
-    <div name="projects" className='bg-gradient-to-b from-gray-900 to-black  w-full text-white h-full py-16 border-t-4  border-orange-400 shadow-inner  rounded-t-[100px]'>
+    <div name="projects" className='bg-gradient-to-b from-gray-900 to-black  w-full text-white h-full py-16 border-t-4 border-b-4 border-orange-500 shadow-inner  rounded-t-[100px]'>
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full ">
         <div className="pb-8 mx-auto -mt-2">
           <p className='text-5xl font-bold inline border-b-4  mx-auto border-gray-500 mb-12'>Projects</p>
@@ -109,8 +109,8 @@ const Projects = () => {
       <div className='mx-auto '>
         <div className='w-5/6 h-full border-[4px] border-blue-500 rounded-2xl mx-auto mb-4 border-t-0 border-b-0'>
 
-           <div className='w-[250px] h-[400px] mx-auto overflow-hidden pt-2'>
-                 <img className='w-5/6 h-5/6 mx-auto' src={item.src} alt="workfig"></img>
+           <div className='w-[250px] h-[400px] mx-auto overflow-hidden pt-2 '>
+                 <img className='w-5/6 h-5/6 mx-auto  md:mx-auto' src={item.src} alt="workfig"></img>
            </div>
            </div>
         <div className='-mt-4 mx-12'>
@@ -157,11 +157,11 @@ const Projects = () => {
 </div>
 </div>
 
-  <div className='flex flex-center justify-center  w-full align-bottom  '>
-        {item.buttons.demo && <a target="_blank" rel="noreferrer"  href={item.buttons.demo} > <button  className=' bg-gray-800 border rounded border-gray-600 px-8 py-3 my-4 duration-200 hover:scale-105'>Demo</button> </a>}
-        {item.buttons.Website && <a target="_blank" rel="noreferrer"  href={item.buttons.Website}> <button  className=' bg-gray-800 border rounded border-gray-600 px-6  p-3 py-3 my-4 duration-200 hover:scale-105'>Website</button> </a>}
-        {item.buttons.Fcode && <a target="_blank" rel="noreferrer"  href={item.buttons.Fcode}><button className=' bg-gray-800 border rounded border-gray-600 p-3 py-3 my-4 duration-200 hover:scale-105'>FrontendCode</button> </a>}
-         {item.buttons.Bcode && <a target="_blank" rel="noreferrer"  href={item.buttons.Bcode}> <button className=' bg-gray-800 border rounded border-gray-600 p-3 py-3 my-4 duration-200 hover:scale-105'>BackendCode</button> </a>}
+  <div className='flex flex-center justify-center  align-bottom  '>
+        {item.buttons.demo && <a target="_blank" rel="noreferrer"  href={item.buttons.demo} > <button  className=' bg-gray-800 border rounded border-gray-600 px-2 py-3 my-4 duration-200 hover:scale-105'>Demo</button> </a>}
+        {item.buttons.Website && <a target="_blank" rel="noreferrer"  href={item.buttons.Website}> <button  className=' bg-gray-800 border rounded border-gray-600 px-2  p-3 py-3 my-4 duration-200 hover:scale-105'>Website</button> </a>}
+        {item.buttons.Fcode && <a target="_blank" rel="noreferrer"  href={item.buttons.Fcode}><button className=' bg-gray-800 border rounded border-gray-600  py-3 my-4 duration-200 hover:scale-105'>FrontendCode</button> </a>}
+         {item.buttons.Bcode && <a target="_blank" rel="noreferrer"  href={item.buttons.Bcode}> <button className=' bg-gray-800 border rounded border-gray-600  py-3 my-4 duration-200 hover:scale-105'>BackendCode</button> </a>}
          {item.buttons.code && <a target="_blank" rel="noreferrer"  href={item.buttons.code}><button className=' bg-gray-800 border rounded border-gray-600 p-3 py-3 my-4 duration-200 hover:scale-105'>Project Source</button> </a>}
          
 

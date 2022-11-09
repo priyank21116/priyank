@@ -19,7 +19,7 @@ const About = () => {
           <div className=' text-5xl text-white  font-bold  mx-auto w-2/6  md:px-10 text-center items-center justify-center overflow-hidden point inline border-b-4 border-gray-400 p-2'><p className='border-b-0 border-gray inline mx-auto text-center items-center justify-center pb-2'>About</p></div>
       </div>
     
-      <div className='max-w-screen-lg md:p-4 mx-auto justify-between w-full h-full  gap-5 mt-5  md:flex md:border-[20px]  md:border-gray-900 rounded-xl '>
+      <div className='max-w-screen-lg md:p-4 mx-auto justify-between w-full h-full  gap-5 mt-5  md:flex md:border-[20px] md:bg-black  md:border-gray-900 rounded-xl '>
          
          {/* <div className='w-full h-full border'></div>
          <div className='w-full h-[120px] border'></div>
@@ -63,7 +63,7 @@ const About = () => {
 
         
 
-         <div className=' w-4/6 md:-mt-28 md:-mr-28 md:w-4/6 h-full justify-center items-center mx-auto px-16 text-lg  font-thin bg-gray-900  border-0 rounded-2xl md:ml-20 '>
+         <div className=' w-4/6 md:-mt-28 md:-mr-28 md:w-4/6 h-full justify-center items-center mx-auto px-4 md:px-16 text-lg  font-thin bg-gray-900  border-0 rounded-2xl md:ml-20 hover:scale-105 duration-300'>
             <p className='font-thin text-center pop py-20 '>
             An innovator, creator, developer and a Startup Enthusiast.
             <div className='py-4'></div>

@@ -27,6 +27,9 @@ function App() {
   <div className='bg-gray-800 px-4'>
   <Skillbox />
   </div>
+
+  <div className='py-4 bg-gray-800 '></div>
+
   <div className='bg-gray-800 px-4 w-full'>
   <Projects />
   </div>

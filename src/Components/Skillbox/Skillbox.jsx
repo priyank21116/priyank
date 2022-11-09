@@ -30,9 +30,9 @@ const Skillbox = () => {
     <div name="experience" className='bg-gradient-to-b from-black to-gray-800 pt-32  border-4 border-blue-500 rounded-t-[200px] rounded-b-[100px] w-full h-full border-b-0 pb-20 px-4'>
 
 
-<div className='w-4/12 border-2 border-gray-500 bg-gradient-to-b from-gray-800 to-black rounded-xl justify-center  h-full py-10 mx-auto pl-32 mb-20  '>
+<div className='w-4/12 border-2 border-gray-500 bg-gradient-to-b from-gray-800 to-black rounded-xl justify-center  h-full py-10 mx-auto pl-32 mb-20 hover:scale-105 duration-300 '>
 
-<div className=' w-full mx-auto my-4 pb-4 border-b-42  inline border-gray-400 relative -top-4 -left-16 nd:top-1 md:left-1 text-center'>
+<div className=' w-full mx-auto my-4 pb-4 border-b-42  inline border-gray-400 relative -top-4 -left-16 nd:top-1 md:left-1 text-center '>
  <p className=' text-4xl md:text-5xl font-bold text-white inline mx-auto -ml-8 md:ml-16'>Skills</p>
 
 <p className=' dance w-full text-4xl text-blue-500 -ml-16 md:-ml-16 pt-8'> ....learner</p>
@@ -51,55 +51,55 @@ const Skillbox = () => {
 
 
   <div className={`shadow-lg hover:scale-105 duration-300 py-4 rounded-lg shadow-blue-500`}>
-    <SiPython size={70} className='w-20 mx-auto my-4'/>
+    <SiPython size={70} className=' w-12 md:w-20 mx-auto my-4'/>
     <p className='mt-4'>Python</p>
   </div>
   <div className={`shadow-lg hover:scale-105 duration-300 py-4 rounded-lg shadow-orange-500`}>
-    <SiJavascript size={70} className='w-20 mx-auto   my-4'/>
+    <SiJavascript size={70} className=' w-12 md:w-20 mx-auto   my-4'/>
     <p className='mt-4'>JavaScript</p>
   </div>
   <div className={`shadow-lg hover:scale-105 duration-300 py-4 rounded-lg shadow-sky-400`}>
-    <FaReact size={70} className='w-20 mx-auto   my-4'/>
+    <FaReact size={70} className=' w-12 md:w-20 mx-auto   my-4'/>
     <p className='mt-4'>Reactjs</p>
   </div>
   <div className={`shadow-lg hover:scale-105 duration-300 py-2 rounded-lg shadow-yellow-500`}>
-    <DiNodejs size={70} className='w-20 mx-auto   my-4'/>
+    <DiNodejs size={70} className=' w-12 md:w-20 mx-auto   my-4'/>
     <p className='mt-4'>Nodejs</p>
   </div>
 
 
   <div className={`shadow-lg hover:scale-105 duration-300 py-2 rounded-lg shadow-pink-500`}>
-    <TiHtml5 size={70} className='w-20 mx-auto   my-4'/>
+    <TiHtml5 size={70} className=' w-12 md:w-20 mx-auto   my-4'/>
     <p className='mt-4'>Html</p>
   </div>
   <div className={`shadow-lg hover:scale-105 duration-300 py-2 rounded-lg shadow-blue-700`}>
-    <SiCsswizardry size={70} className='w-20 mx-auto   my-4'/>
+    <SiCsswizardry size={70} className=' w-12 md:w-20 mx-auto   my-4'/>
     <p className='mt-4'>CSS</p>
   </div>
   <div className={`shadow-lg hover:scale-105 duration-300 py-2 rounded-lg shadow-white`}>
-    <SiExpress size={70} className='w-20 mx-auto   my-4'/>
+    <SiExpress size={70} className=' w-12 md:w-20 mx-auto   my-4'/>
     <p className='mt-4'>Express</p>
   </div>
   <div className={`shadow-lg hover:scale-105 duration-300 py-2 rounded-lg shadow-blue-500`}>
-    <SiMongodb size={70} className='w-20 mx-auto   my-4'/>
+    <SiMongodb size={70} className=' w-12 md:w-20 mx-auto   my-4'/>
     <p className='mt-4'>Mongo DB</p>
   </div>
 
 
   <div className={`shadow-lg hover:scale-105 duration-300 py-2 rounded-lg shadow-red-600`}>
-    <TbBrandReactNative size={70} className='w-20 mx-auto   my-4'/>
+    <TbBrandReactNative size={70} className=' w-12 md:w-20 mx-auto   my-4'/>
     <p className='mt-4'>React Native</p>
   </div>
   <div className={`shadow-lg hover:scale-105 duration-300 py-2 rounded-lg shadow-red-200`}>
-    <AiOutlineConsoleSql size={70} className='w-20 mx-auto   my-4'/>
+    <AiOutlineConsoleSql size={70} className=' w-12 md:w-20 mx-auto   my-4'/>
     <p className='mt-4'>SQL</p>
   </div>
   <div className={`shadow-lg hover:scale-105 duration-300 py-2 rounded-lg shadow-red-400`}>
-    <SiRedux size={70} className='w-20 mx-auto   my-4'/>
+    <SiRedux size={70} className=' w-12 md:w-20 mx-auto   my-4'/>
     <p className='mt-4'>Redux</p>
   </div>
   <div className={`shadow-lg hover:scale-105 duration-300 py-2 rounded-lg shadow-gray-300`}>
-    <SiTailwindcss size={70} className='w-20 mx-auto   my-4'/>
+    <SiTailwindcss size={70} className=' w-12 md:w-20 mx-auto   my-4'/>
     <p className='mt-4'>TailwindCSS</p>
   </div>
 
